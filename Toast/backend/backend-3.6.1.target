@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.6"?>
-
 <target name="Toast Backend Target">
 <locations>
 <location includeAllPlatforms="true" includeMode="slicer" type="InstallableUnit">
@@ -14,11 +13,11 @@
 <unit id="org.eclipse.rap.runtime.sdk.feature.group" version="1.3.1.20100915-2301"/>
 <repository location="http://download.eclipse.org/releases/helios"/>
 </location>
-<location path="${workspace_loc}/Toast/target" type="Directory"/>
+	<location path="/data/dev_environment/formations-ws/examples.toast/Toast/target" type="Directory"/>
 </locations>
 <environment>
-<os>macosx</os>
-<ws>cocoa</ws>
+<os>linux</os>
+<ws>gtk</ws>
 <arch>x86_64</arch>
 </environment>
 <targetJRE path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
